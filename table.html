@@ -1,0 +1,119 @@
+<html>
+  <head> <!-- meta data -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <style type="text/css">
+
+    </style>
+
+    <title>NFL Champ Data</title>
+  </head>
+
+  <body> <!-- content -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a id="logo" class="navbar-brand" href="index.html">JDoe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html">Home</a>
+          <a class="nav-item nav-link" href="userInfo.html">Perosnal Info</a>
+          <a class="nav-item nav-link active" href="table.html">NFL Champs</a><span class="sr-only">(current)</span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid"> <!-- main container for the entire page -->
+      <div class="row py-3 justify-content-md-center shadow-lg bg-white rounded  home_header">
+        <img src="img/nfl.png" alt="NFL Logo" class="nfl_logo">
+      </div> <!-- name -->
+    </div> <!-- top header row -->
+
+    <div class="container pt-4 justify-content-md-center">
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th scope="col">Super Bowl #</th>
+          <th scope="col">Team</th>
+          <th scope="col">Date Won</th>
+          <th scope="col">Average Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Green Bay Packers</td>
+          <td>12/26/1966</td>
+          <td>$24,000</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Green Bay Packers</td>
+          <td>12/26/1967</td>
+          <td>$25,000</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>New York Jets</td>
+          <td>12/28/1968</td>
+          <td>$26,000</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Kansas City Chiefs</td>
+          <td>12/29/1969</td>
+          <td>$27,000</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Baltimore Colts</td>
+          <td>12/29/1970</td>
+          <td>$28,000</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="container">
+    <table id="myTableAdd" class="table order-list">
+      <thead>
+          <tr>
+              <th>Super Bowl</th>
+              <th>Team</th>
+              <th>Date Won</th>
+              <th>Average Salary</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td class="col">
+                  <input type="number" name="Super Bowl" min="6" max="52" class="form-control"/>
+              </td>
+              <td class="col">
+                  <input type="string" name="Team"  class="form-control"/>
+              </td>
+              <td class="col">
+                  <input type="date" name="Date Won"  class="form-control"/>
+              </td>
+              <td class="col">
+                  <input type="text" name="Salary"  class="form-control"/>
+              </td>
+            </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4" style="text-align: left;">
+              <input type="button" class="btn btn-lg btn-block " id="addrow" value="Add Row" />
+            </td>
+          </tr>
+        </tfoot>
+    </table>
+    </div>
+  </body>
+</html>

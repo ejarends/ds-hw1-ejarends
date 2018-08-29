@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.nfl_logo{
+  width: 125px;
+  height: 175px;
+}
+
+.home_header {
+  margin-top: 50px;
+}
+
+.container {
+}
+
+#test {
+  border: 2px black solid;
+}
+
+#sports {
+  height: 250px;
+  width: 350px;
+}
+
+.figure-caption {
+  font-size: 8pt ;
+}
+
+.home_title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.sports_title {
+  text-align: center;
+}
