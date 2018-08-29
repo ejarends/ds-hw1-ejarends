@@ -23,17 +23,19 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.html">Home</a>
-          <a class="nav-item nav-link active" href="userInfo.html">Perosnal Info<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="table.html">NFL Champs</a>
+          <a class="nav-item nav-link nav_href" href="index.html">Home</a>
+          <a class="nav-item nav-link active nav_href" href="userInfo.html">Perosnal Info<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link nav_href" href="table.html">NFL Champs</a>
         </div>
       </div>
     </nav>
 
     <div class="container-fluid home_header"> <!-- main container for the entire page -->
-      <div class="row py-3 justify-content-md-center shadow-lg bg-white rounded">
+      <div id="headers" class="row py-3 justify-content-md-center shadow-lg rounded">
         <div class="col col-lg-2">
-          <img src="img/personal_photo.jpg" alt="John's Headshot" class="img-fluid img-thumbnail rounded-circle">
+          <a href="img/personal_photo.jpg">
+            <img src="img/personal_photo.jpg" alt="John's Headshot" class="img-fluid img-thumbnail rounded-circle">
+          </a>
         </div> <!-- photo -->
         <div class="col col-lg-4 align-self-center">
           <h1 class="text-center">James Doe</h1>
@@ -45,7 +47,7 @@
           <h4>Country</h4>
         </div>
         <div class="col col-md-2">
-          <p>Canada</p>
+          <p class="info_p">Canada</p>
         </div>
       </div> <!-- country row -->
 
@@ -54,7 +56,7 @@
           <h4>Age</h4>
         </div>
         <div class="col col-md-2">
-          <p>27</p>
+          <p class="info_p">27</p>
         </div>
       </div> <!-- age row-->
 
@@ -63,7 +65,7 @@
           <h4>Birthday</h4>
         </div>
         <div class="col col-md-2">
-          <p>October 30, 1990</p>
+          <p class="info_p">October 30, 1990</p>
         </div>
       </div> <!-- birthdate row-->
 
@@ -71,8 +73,8 @@
         <div class="col col-md-2">
           <h4>Email</h4>
         </div>
-        <div class="col col-md-2">
-          <a href="#">james.doe@aolhotmail.net</a>
+        <div class="col col-md-2 personal_text">
+          <a  class="info_p href_p" href="#">james.doe@aolhotmail.net</a>
         </div>
       </div> <!-- email -->
 

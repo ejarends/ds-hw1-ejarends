@@ -23,28 +23,32 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="userInfo.html">Perosnal Info</a>
-          <a class="nav-item nav-link" href="table.html">NFL Champs</a>
+          <a class="nav-item nav-link active nav_href" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link nav_href" href="userInfo.html">Perosnal Info</a>
+          <a class="nav-item nav-link nav_href" href="table.html">NFL Champs</a>
         </div>
       </div>
     </nav>
 
     <!-- <div class="container-fluid home_header"> -->
-      <div class="container-fluid py-3 shadow-lg bg-white rounded home_header">
-        <h1 class="home_title">James Doe's Favorite Sports</h1>
+      <div id="headers" class="container-fluid py-3 shadow-lg rounded home_header">
+        <h1 class="py-4 home_title">James Doe's Favorite Sports</h1>
       </div> <!-- home header -->
 
-      <div class="container"> <!-- home columns -->
+      <div class="container pt-2 shadow-sm p-3 my-5 rounded home_body"> <!-- home columns -->
         <div class="row pt-3 justify-content-center">
           <div class="col col-sm-4"> <!-- column 1 BASKETBALL -->
             <figure class="figure">
-              <img id="sports" src="img/basketball.jpg" alt="Running back playing football" class="img-thumbnail">
+              <a href="img/basketball.jpg">
+                <img id="sports" src="img/basketball.jpg" alt="Running back playing football" class="img-thumbnail">
+              </a>
               <figcaption class="figure-caption text-left">Michael Jordan's iconic dunk. Photo from www.sportskeeda.com</figcaption>
             </figure>
           </div>
           <div class="col col-sm-4"> <!-- column 2 FOOTBALL -->
-            <img id="sports" src="img/football.jpg" alt="Football" class="img-thumbnail">
+            <a href="img/football.jpg">
+              <img id="sports" src="img/football.jpg" alt="Football" class="img-thumbnail">
+            </a>
             <figcaption class="figure-caption text-left">Todd Gurley rushing for a touchdown. Photo from www.nfl.com</figcaption>
           </div>
         </div> <!-- row 1 images-->
@@ -58,10 +62,10 @@
         </div> <!-- row 2 -->
         <div class="row py-2 justify-content-center">
           <div class="col col-sm-4">
-            <p>The highest professional league for basketball in the United States is the NBA, or National Basketball Association</p>
+            <p class="font-italic">The highest professional league for basketball in the United States is the NBA, or National Basketball Association</p>
           </div>
           <div class="co col-sm-4">
-            <p>The professional league for football is the NFL, or National Football League</p>
+            <p class="font-italic">The professional league for football is the NFL, or National Football League</p>
           </div>
         </div> <!-- row 3 -->
   </body>

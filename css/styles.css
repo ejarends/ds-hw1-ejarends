@@ -1,7 +1,8 @@
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
+  background-color: rgba(68, 68, 68);
 }
 
 .nfl_logo{
@@ -14,6 +15,19 @@
 }
 
 .container {
+}
+
+h1 {
+  font-size: 50pt;
+  color: white;
+}
+
+.home_body {
+  background-color: rgb(230 230 230);
+}
+
+#headers {
+  background-color: rgb(175 30 36);
 }
 
 #test {
@@ -34,6 +48,15 @@
   text-decoration: underline;
 }
 
+#addrow {
+  background-color: blue;
+  color: white;
+}
+
 .sports_title {
   text-align: center;
+}
+
+.info_p {
+  font-size: 14pt;
 }

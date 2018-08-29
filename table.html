@@ -22,15 +22,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.html">Home</a>
-          <a class="nav-item nav-link" href="userInfo.html">Perosnal Info</a>
-          <a class="nav-item nav-link active" href="table.html">NFL Champs</a><span class="sr-only">(current)</span>
+          <a class="nav-item nav-link nav_href" href="index.html">Home</a>
+          <a class="nav-item nav-link nav_href" href="userInfo.html">Perosnal Info</a>
+          <a class="nav-item nav-link active nav_href" href="table.html">NFL Champs</a><span class="sr-only">(current)</span>
         </div>
       </div>
     </nav>
 
     <div class="container-fluid"> <!-- main container for the entire page -->
-      <div class="row py-3 justify-content-md-center shadow-lg bg-white rounded  home_header">
+      <div id="headers" class="row py-3 justify-content-md-center shadow-lg rounded home_header">
         <img src="img/nfl.png" alt="NFL Logo" class="nfl_logo">
       </div> <!-- name -->
     </div> <!-- top header row -->
@@ -109,7 +109,7 @@
         <tfoot>
           <tr>
             <td colspan="4" style="text-align: left;">
-              <input type="button" class="btn btn-lg btn-block " id="addrow" value="Add Row" />
+              <input type="button" class="btn btn-lg btn-block" id="addrow" value="Add Row" />
             </td>
           </tr>
         </tfoot>
