@@ -17,15 +17,15 @@
 
   <body> <!-- content -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a id="logo" class="navbar-brand" href="index.html">JDoe</a>
+      <a id="logo" class="navbar-brand" href="index.html">JDoe.com</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link nav_href" href="index.html">Home</a>
-          <a class="nav-item nav-link active nav_href" href="userInfo.html">Perosnal Info<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link nav_href" href="table.html">NFL Champs</a>
+          <a id="color-change" class="nav-item nav-link" href="index.html">Home</a>
+          <a id="color-change" class="nav-item nav-link active" href="userInfo.html">Perosnal Info<span class="sr-only">(current)</span></a>
+          <a id="color-change" class="nav-item nav-link" href="table.html">NFL Champs</a>
         </div>
       </div>
     </nav>
@@ -42,42 +42,48 @@
         </div> <!-- name -->
       </div> <!-- top header row -->
 
-      <div class="row pt-3 justify-content-md-center">
-        <div class="col col-md-2">
-          <h4>Country</h4>
-        </div>
-        <div class="col col-md-2">
-          <p class="info_p">Canada</p>
-        </div>
-      </div> <!-- country row -->
+      <div class="container pt-4">
+        <div class="row pt-2 justify-content-md-center">
+          <div class="col col-md-2">
+            <h4>Country</h4>
+          </div>
+          <div class="col col-md-2">
+            <p id="info_p" class="info_p">
+              <a href="img/canada.png">
+                <img src="img/canada.png" alt="Canadian Flag" id="flag_can">
+              </a> Canada
+            </p>
+            </div>
+          </div>
+        </div> <!-- country row -->
 
-      <div class="row justify-content-md-center">
-        <div class="col col-md-2">
-          <h4>Age</h4>
-        </div>
-        <div class="col col-md-2">
-          <p class="info_p">27</p>
-        </div>
-      </div> <!-- age row-->
+        <div class="row pt-2 justify-content-md-center">
+          <div class="col col-md-2">
+            <h4>Age</h4>
+          </div>
+          <div class="col col-md-2">
+            <p id="info_p" class="info_p">27</p>
+          </div>
+        </div> <!-- age row-->
 
-      <div class="row justify-content-md-center">
-        <div class="col col-md-2">
-          <h4>Birthday</h4>
-        </div>
-        <div class="col col-md-2">
-          <p class="info_p">October 30, 1990</p>
-        </div>
-      </div> <!-- birthdate row-->
+        <div class="row pt-2 justify-content-md-center">
+          <div class="col col-md-2">
+            <h4>Birthday</h4>
+          </div>
+          <div class="col col-md-2">
+            <p id="info_p" class="info_p">October 30, 1990</p>
+          </div>
+        </div> <!-- birthdate row-->
 
-      <div class="row justify-content-md-center">
-        <div class="col col-md-2">
-          <h4>Email</h4>
-        </div>
-        <div class="col col-md-2 personal_text">
-          <a  class="info_p href_p" href="#">james.doe@aolhotmail.net</a>
-        </div>
-      </div> <!-- email -->
-
+        <div class="row pt-2 justify-content-md-center">
+          <div class="col col-md-2">
+            <h4>Email</h4>
+          </div>
+          <div class="col  col-md-2 personal_text">
+            <a id="info_p" class="color-change info_p" href="#">james.doe@aolhotmail.net</a>
+          </div>
+        </div> <!-- email -->
+    </div> <!-- info body>
     </div>  <!-- main page container -->
   </body>
 </html>

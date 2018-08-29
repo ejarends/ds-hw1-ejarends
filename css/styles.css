@@ -49,8 +49,21 @@ h1 {
 }
 
 #addrow {
-  background-color: blue;
+  background-color: rgb(11 66 121);
   color: white;
+}
+
+.color-change:hover {
+    color: red
+}
+
+#color-change:hover {
+    color: blue;
+}
+
+#info_p {
+  text-transform: capitalize;
+  text-shadow: 1px #000000;
 }
 
 .sports_title {
@@ -58,5 +71,10 @@ h1 {
 }
 
 .info_p {
-  font-size: 14pt;
+  font-size: 15pt;
+}
+
+#flag_can {
+  width: 50px;
+  height: 25px;
 }
